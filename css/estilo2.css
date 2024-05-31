@@ -1,0 +1,178 @@
+.azul{
+    border: 1px dashed blue;
+}
+
+.roja{
+    border: 1px dashed red;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(110, 106, 102, 0.555);
+}
+
+.columna{
+    float: left;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#headerContain{
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+#reset{
+    display: block;
+    clear: both;
+}
+
+#htitulo{
+    width: 30%;
+    text-align: center;
+}
+
+#htitulo h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 55px;
+}/*em*/
+
+#navega{
+    width: 60%;
+    text-align: center;
+}
+
+#navega ul{
+    padding: 0;
+    margin: 0;
+}
+
+#navega li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    height: 55px;
+    padding: 16px 15px 0 15px;
+}
+#navega:hover{
+    color: white;
+    background: #333333;
+}
+
+#personal{
+    width: 70%;
+    font-size: 14px;
+}
+
+#social{
+    width: 29%;
+    padding-top: 21px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+}
+.socialButton{
+    width: 50%;
+    margin: 5px;
+}
+
+#contfoto{
+    width: 40%;
+    text-align:center;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+    border: 2px solid rgb(82, 52, 24);
+    background: white;
+    text-align: center;
+}
+
+#fototxt{
+    width: 60%;
+}
+
+#creditos{
+    background-color: rgb(108, 165, 108);
+}
+
+/*--------------BOTONES--------------*/
+
+.x{
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, ☐ #ffec64 5%, #ffab23 100%);
+    background-color: #64d3ff;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color: #333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px ☐ #ffee66;
+}
+
+.x:hover{
+    background: linear-gradient(to bottom, #ffab23 5%);
+    background-color: #ffab23;
+}
+
+.face{
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, ☐ #ffec64 5%, #ffab23 100%);
+    background-color: #5f7aac;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color: #333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px ☐ #ffee66;
+}
+
+.face:hover{
+    background: linear-gradient(to bottom, #ffab23 5%);
+    background-color: #23ff35;
+}
+
+.insta{
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, ☐ #ffec64 5%, #ffab23 100%);
+    background-color: #e6a3c2;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color: #333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px ☐ #ffee66;
+}
+
+.insta:hover{
+    background: linear-gradient(to bottom, #ffab23 5%);
+    background-color: #ff3d23;
+}
+
